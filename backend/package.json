@@ -1,0 +1,21 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r esm src/main.js",
+    "start": "node -r esm src/main.js"
+  },
+  "dependencies": {
+    "apollo-server-core": "^3.8.2",
+    "apollo-server-express": "^3.8.2",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "graphql": "^16.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
